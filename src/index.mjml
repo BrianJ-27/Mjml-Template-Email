@@ -1,0 +1,176 @@
+<mjml>
+  <mj-head>
+    <mj-style inline="inline">
+      h2,
+      h3,
+      a {
+        color: #000000;
+      }
+
+      .link-nostyle {
+        text-decoration: none;
+      }
+
+      .text-props {
+        font-size: 14px;
+        margin: -15px;
+        width: 85%;
+        Margin: 0 auto;
+      }
+
+      .footer-icons {
+        display: inline-block;
+        Margin: 10px;
+      }
+
+      .footer-links {
+        color: #ffffff;
+      }
+    </mj-style>
+    <mj-attributes>
+      <mj-text padding="0" align="center" color="#555555" line-height="1.5" letter-spacing="1px" />
+      <mj-section background-color="#ffffff" />
+      <mj-button background-color="darkgray" letter-spacing="1px" font-weight="bold" width="150px" font-size="18px" />
+      <mj-class name="big" font-size="24px" />
+      <mj-class name="email-bg" background-color="#e1e1e1" />
+      <mj-class name="short-width" width="80%" />
+      <mj-class name="middle-margin" margin="0 auto" />
+      <mj-all font-family="Quantico" />
+    </mj-attributes>
+    <mj-font name="Quantico" href="https://fonts.googleapis.com/css2?family=Quantico" />
+    <mj-title>First MJML Email</mj-title>
+  </mj-head>
+
+  <mj-body mj-class="email-bg">
+
+    <!--Header-->
+    <mj-section>
+      <mj-column>
+        <mj-text mj-class="big">
+          <a href="#" class="link-nostyle">Multi-Layout Email</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!--Banner Image-->
+    <mj-section background-color="#000000" padding="0">
+      <mj-column>
+        <mj-image padding="0" height="300px" src="https://drive.google.com/uc?export=view&id=1sTNGJj4UAUQUYMlSG4awYJWh_Ry6SCkj" alt="moonlight image" />
+      </mj-column>
+    </mj-section>
+
+    <!--Intro-->
+    <mj-section>
+      <mj-column width="80%">
+        <mj-text>
+          <h2>Design Beautiful emails</h2>
+        </mj-text>
+        <mj-text>
+          <p>Create and layout professional and high quality emails for your business clients. We take care to deliver a quality product every single time</p>
+        </mj-text>
+        <mj-button href="#">
+          See More
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <!--Two Column feature-->
+    <mj-section>
+      <mj-column width="250px">
+        <mj-image src="https://drive.google.com/uc?export=view&id=1bG4AMoAG3kZHz9fmMIbJrnMloSJLEjX4" alt="pic 1" height="200px" mj-class="img-bgcolor" />
+        <mj-text>
+          <h3 align="center">Pixel Perfect</h3>
+          <p class="text-props">It is a long established fact that a reader will be distracted by the content</p>
+          <p> <a href="#">Read More &#8594;</a> </p>
+        </mj-text>
+      </mj-column>
+      <mj-column width="250px">
+        <mj-image src="https://drive.google.com/uc?export=view&id=1Iuu5LdtOpDTl8n2N8yVrn3QE5E9RySPz" alt="pic 2" height="200px" />
+        <mj-text>
+          <h3 align="center">Easy to design</h3>
+          <p class="text-props">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots</p>
+          <p> <a href="#">Read More &#8594;</a> </p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!--spacer-->
+    <mj-section>
+      <mj-column>
+        <mj-text>
+          <hr style="max-width: 80%">
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!--Three Column Feature-->
+    <mj-section>
+      <mj-column width="180px">
+        <mj-image src="https://drive.google.com/uc?export=view&id=16Ps1vyz73zc8tswITUj3nk-3Ph-8_aGR" alt="icon 1" width="70px" />
+        <mj-text>
+          <h3>Teamwork</h3>
+          <p class="text-props">There are many variations of passages of Lorem</p>
+          <p> <a href="#">Read More &#8594;</a> </p>
+        </mj-text>
+      </mj-column>
+      <mj-column width="180px">
+        <mj-image src="https://drive.google.com/uc?export=view&id=1IpNYgH7dKOf1n9gJvIuN8Pd0GFg1wra2" alt="icon 2" width="70px" />
+        <mj-text>
+          <h3>Partnership</h3>
+          <p class="text-props">There are many variations of passages of Lorem</p>
+          <p> <a href="#">Read More &#8594;</a> </p>
+        </mj-text>
+      </mj-column>
+      <mj-column width="180px">
+        <mj-image src="https://drive.google.com/uc?export=view&id=1eXfP5rKi81WvALtbOq5eulSQfIuE6aUX" alt="icon 3" width="70px" />
+        <mj-text>
+          <h3>Business</h3>
+          <p class="text-props">There are many variations of passages of Lorem</p>
+          <p> <a href="#">Read More &#8594;</a> </p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!--Footer Content-->
+    <mj-section background-color="darkgray" padding-top="8px" padding-bottom="0px">
+      <mj-column>
+        <mj-text padding="0">
+          <h3 style="color: #ffffff; ">Stay Connected</h3>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="darkgray" padding="0">
+      <mj-column width="10%">
+        <mj-image padding="10px" src="https://drive.google.com/uc?export=view&id=1EGD5t_uAJZWWK1llHOuXIlxHKwxzU6to" alt="facebook icon link" width="30px" />
+      </mj-column>
+      <mj-column width="10%">
+        <mj-image padding="10px" src="https://drive.google.com/uc?export=view&id=14PFvWwquxGBdWN_48VUYVgapovvk8U_A" alt="instagram icon link" width="30px" />
+      </mj-column>
+      <mj-column width="10%">
+        <mj-image padding="10px" src="https://drive.google.com/uc?export=view&id=19RLp4P7pSzZAdPe7SaFUeWEh-MXPik_X" alt="twitter icon link" width="30px" />
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="darkgray" padding="0">
+      <mj-column>
+        <mj-text>
+          <p style="margin-bottom: 12px">
+            <a class="footer-links" href="https://www.flaticon.com/free-icons/report" title="report icons">Shoutout to Freepik - Flaticon</a>
+          </p>
+          <p style="margin-bottom: 12px">
+            <a class="footer-links" href="https://www.flaticon.com/free-icons/facebook" title="facebook icons">Facebook icons - Flaticon</a>
+          </p>
+          <p style="margin-bottom: 12px">
+            <a class="footer-links" href="https://www.flaticon.com/free-icons/instagram" title="instagram icons">Instagram icons - Flaticon</a>
+          </p>
+          <p style="margin-bottom: 12px">
+            <a class="footer-links" href="https://www.flaticon.com/free-icons/twitter" title="twitter icons">Twitter icons - Flaticon</a>
+          </p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+  </mj-body>
+
+</mjml>
