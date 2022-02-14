@@ -7,7 +7,7 @@
     "start": "mjml --watch src/index.mjml --output src/index.html",
     "server": "live-server --host=localhost --open=src",
     "dev": "concurrently \"npm start\" \"npm server\"",
-    "build": "mjml src/index.mjml --output build/index.html"
+    "build": "mjml src/index.mjml --output index.html"
   },
   "keywords": [],
   "author": "",
