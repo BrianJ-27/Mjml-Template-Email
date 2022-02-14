@@ -32,7 +32,7 @@
       }
     </mj-style>
     <mj-attributes>
-      <mj-text align="center" color="#555555" line-height="1.5" letter-spacing="1px" />
+      <mj-text padding="0 5px" align="center" color="#555555" line-height="1.5" letter-spacing="1px" />
       <mj-section background-color="#ffffff" />
       <mj-button background-color="darkgray" letter-spacing="1px" font-weight="bold" width="150px" font-size="18px" />
       <mj-class name="big" font-size="24px" />
